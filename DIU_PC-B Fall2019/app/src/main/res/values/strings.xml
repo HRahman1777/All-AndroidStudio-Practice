@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DIU_PC-B Fall2019</string>
+    <string name="about_sfw">
+        \t\t\t\t\t\t\t\tDIU_PC-B Fall2019 v1.1 R.v0.3\n\n
+        This is just a effort to make a simple and fun apk software for my classmates(PC-B Fall-2019)(CSE-49th Batch).
+        And also my first apk software. Im not so good on design so plz ignore it ;) . I tried by best and I think this will be helpful.
+        THANKS for installed it after EVEN seeing its harmful  (dont worry, Im too much begineer to put a backdoor) :P -kidding-\n\nEspecially,
+        Thanks to my friend Emtiyaz Ahmed and Nabid Hasan for helping me to collect information. \n\n\tbtw,PLEASE MAKE SURE THAT APK FILE IS THE
+        LATEST ONE. :)
+        \n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t#HasiburRahman\n\t\t\t\t\t\t\t\t\t\thasibur15-1777@diu.edu.bd
+    </string>
+    <string name="home_banner">
+        \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPC-B\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFall-2019\n\n\t\t\tPLEASE MAKE SURE THAT APK FILE IS THE LATEST ONE.
+    </string>
+</resources>

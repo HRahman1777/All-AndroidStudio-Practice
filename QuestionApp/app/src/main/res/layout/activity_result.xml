@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Number You Get"
+        android:gravity="center"
+        android:textSize="25dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/resultTVID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textSize="25dp"
+        >
+    </TextView>
+
+
+    <Button
+        android:id="@+id/homeBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#2c8bff"
+        android:textColor="#fff"
+        android:layout_marginTop="35px"
+        android:layout_marginLeft="110dp"
+        android:text="Home"
+        android:textSize="15dp">
+    </Button>
+
+</LinearLayout>

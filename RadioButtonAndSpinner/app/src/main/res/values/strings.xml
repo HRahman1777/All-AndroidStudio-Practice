@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RadioButtonAndSpinner</string>
+    <string-array name="department_options">
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>BBA</item>
+        <item>ACT</item>
+    </string-array>
+</resources>

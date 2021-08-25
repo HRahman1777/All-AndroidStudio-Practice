@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="12"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radio Button Checking With Weight Sum"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:background="#E5F043"
+        android:layout_weight="2"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="What the result of (5+5)?"
+        android:layout_marginTop="10dp"
+        android:background="#DFF5F7"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:layout_weight="1"
+        >
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:background="#E49EE1E7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:buttonTint="#5E35B1"/>
+
+        <RadioButton
+            android:id="@+id/firstAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:buttonTint="#5E35B1"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:buttonTint="#5E35B1"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:text=""
+        android:layout_weight="1"
+        >
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="What the result of (10+5)?"
+        android:layout_marginTop="10dp"
+        android:background="#DFF5F7"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:layout_weight="1">
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:background="#E49EE1E7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:buttonTint="#5E35B1"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25"
+            android:buttonTint="#5E35B1"/>
+
+        <RadioButton
+            android:id="@+id/secondAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:buttonTint="#5E35B1"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:text=""
+        android:layout_weight="1">
+    </TextView>
+
+    <Button
+        android:id="@+id/answerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2c8bff"
+        android:textColor="#fff"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:layout_weight="1">
+    </Button>
+
+</LinearLayout>

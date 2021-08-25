@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is Home Activity!"
+        android:textColor="#000"
+        android:background="#ECD161"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginBottom="80dp"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/editTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="write something to pass value"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        >
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Here"
+        android:textColor="#000"
+        android:background="#CB50A8D1"
+        android:textSize="20dp"
+        >
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NextActivity">
+
+    <Button
+        android:id="@+id/calBmiid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate BMI"
+        />
+    <Button
+        android:id="@+id/calfartocid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fahrenheit to Celsius"
+        />
+    <Button
+        android:id="@+id/calCeltoFid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celsius to Fahrenheit"
+        />
+
+    <Button
+        android:id="@+id/showallID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All users"
+        />
+
+    <fragment
+        android:id="@+id/fragmentid"
+        android:name="com.example.bmi_ftoc_ctof_fall2020.BlankFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
